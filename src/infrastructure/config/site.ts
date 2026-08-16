@@ -7,6 +7,6 @@
 export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://radarlogs.guria.lat";
 
-export const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
+export const gtmId = process.env.NEXT_PUBLIC_GTM_ID ?? "GTM-TFFMQLTK";
 
 export const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION;
