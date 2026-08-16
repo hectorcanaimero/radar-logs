@@ -1,0 +1,17 @@
+# Log Radar
+
+> A browser-only tool that highlights anomalies in container logs using embeddings — no labels, no supervision, no server.
+
+Log Radar turns each unique log line into an embedding (Xenova/all-MiniLM-L6-v2, 22M params, quantized q8), computes the frequency-weighted centroid, and scores lines by cosine distance to surface anomalies. Everything runs locally in the browser via Transformers.js.
+
+## Docs
+- [README](https://github.com/hectorcanaimero/radar-logs#readme): project overview, architecture, and setup
+- [Architecture](https://github.com/hectorcanaimero/radar-logs#architecture): Clean Architecture (4 layers)
+- [GitHub repository](https://github.com/hectorcanaimero/radar-logs)
+
+## Site
+- [Home](https://radarlogs.guria.lat)
+- [Production errors](https://radarlogs.guria.lat/en/errores)
+- [Security & access](https://radarlogs.guria.lat/en/seguridad)
+- [Performance](https://radarlogs.guria.lat/en/rendimiento)
+- [Deployments & releases](https://radarlogs.guria.lat/en/despliegues)
