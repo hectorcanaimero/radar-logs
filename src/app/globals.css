@@ -1,3 +1,9 @@
+/**
+ * LAYER: Interface
+ * Contains: Global styles (contrato visual monocromo)
+ * Rules: Tokens y base. Nada de lógica.
+ */
+
 @import "tailwindcss";
 
 :root {
@@ -12,15 +18,8 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
